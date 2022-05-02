@@ -3,9 +3,9 @@
 <img src="https://user-images.githubusercontent.com/60404990/138182876-a5413aa1-dbad-4836-9d70-0da8e068eaa2.png"> 
 </p>
 
-<h1 align="center">  [NLW Heat] | Mission Impulse 🚀 </h1>
+<h1 align="center">  [NLW Returno] | Mission Impulse 🚀 </h1>
 
-O NLW é um evento intensivo desenvolvido pela equipe da Rocketseat para ajudar ao participante a dar o próximo passo na sua evolução na prática. Durante o NLW Heat é desenvolvido uma aplicação completa com conteúdos práticos, com trilhas para todos os níveis, para ajudar a aprimorar as habilidades e encarar os desafios do mundo real e construir aplicações. Estarei participando da trilha Impulse, pois é a mais alinhada com o seu momento e objetivo e poderei focar em tecnologias importantes como ReactJS, Node.js, React Native e Elixir. 💜
+O NLW é um evento intensivo desenvolvido pela equipe da Rocketseat para ajudar ao participante a dar o próximo passo na sua evolução na prática. Durante o NLW Return é desenvolvido uma aplicação completa com conteúdos práticos, com trilhas para todos os níveis, para ajudar a aprimorar as habilidades e encarar os desafios do mundo real e construir aplicações. Estarei participando da trilha Impulse, pois é a mais alinhada com o seu momento e objetivo e poderei focar em tecnologias importantes como ReactJS, Node.js, React Native e Elixir. 💜
 
 ## Tecnologias 
 
@@ -17,9 +17,14 @@ O NLW é um evento intensivo desenvolvido pela equipe da Rocketseat para ajudar 
 
 ## Instalações e Dependências
 
- - Yanr:
+ - Inicializando o projeto:
     ```bash
-   $ yarn init -y
+   $ npm create vite@latest
+   ```
+
+ - NPM:
+    ```bash
+   $ npm install
    ```
 
  -  Express:
