@@ -13,8 +13,20 @@ export class SubmitFeedbackUseCase {
         private mailAdapter: MailAdapter,
     ) {}
 
-    async execute (request: SubmitFeedbackUseRequest){
+    async execute(request: SubmitFeedbackUseRequest){
         const {type, comment, screenshot} = request;
+
+        if(!type){
+            throw new Error('Type is required');
+        }
+        
+        if(!comment){
+            throw new Error('Type is required');
+        }
+
+        if(screenshot && !screenshot.startsWith('data:image/png;base64')){
+            throw new Error('Invalid screenshot format.')
+        }
 
         await this.feedbacksRepository.create({
             type,
