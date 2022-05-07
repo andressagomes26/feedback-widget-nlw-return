@@ -5,11 +5,18 @@ import BottomSheet from '@gorhom/bottom-sheet';
 import { gestureHandlerRootHOC } from 'react-native-gesture-handler';
 
 import { Options } from '../Options';
+import { Form } from '../Form';
+import { Sucess } from '../Sucess';
+
+
+import { feedbackTypes } from '../../utils/feedbackTypes';
 
 import { theme } from '../../theme';
 import { styles } from './styles';
 
-function Widget() {
+export type FeedbackType = keyof typeof feedbackTypes;
+
+export function Widget() {
   const bottomSheetRef = useRef<BottomSheet>(null)
 
   function handleOpen(){
@@ -35,10 +42,10 @@ function Widget() {
           backgroundStyle={styles.modal}
           handleIndicatorStyle={styles.indicator}
         >
-          <Options />
+          <Sucess />
         </BottomSheet>
     </>
   );
 }
 
-export default gestureHandlerRootHOC(Widget);
+//export default gestureHandlerRootHOC(Widget);
