@@ -10,7 +10,9 @@ O NLW é um evento intensivo desenvolvido pela equipe da Rocketseat para ajudar 
 ## Tecnologias 
 
 - ReactJS;
+- TypeScript;
 - Node.js;
+- React Native;
 
 ## Instalações e Dependências
 
